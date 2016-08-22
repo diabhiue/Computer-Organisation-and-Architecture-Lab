@@ -1,0 +1,11 @@
+mvi b,2
+mvi c,3
+mvi a,0
+
+loop: add b
+dcr c
+jnz loop
+sta 0003
+
+
+hlt
