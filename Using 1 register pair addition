@@ -1,0 +1,8 @@
+lxi h,0001
+mov a,m
+inx h
+add m
+inx h
+mov m,a
+
+hlt

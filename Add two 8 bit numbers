@@ -1,0 +1,7 @@
+mvi a,5
+mvi b,6
+add b
+sta 0007
+
+
+hlt

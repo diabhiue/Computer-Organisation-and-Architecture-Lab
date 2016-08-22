@@ -1,0 +1,7 @@
+lxi h,0001
+lxi b,0002
+ldax b
+add m
+sta 0003              
+
+hlt
