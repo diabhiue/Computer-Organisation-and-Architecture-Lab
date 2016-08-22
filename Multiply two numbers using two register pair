@@ -1,0 +1,14 @@
+lxi b,0001
+lxi h,0002
+ldax b
+mov d,a
+mvi a,0
+
+loop: add m
+dcr d
+jnz loop
+
+sta 0003
+
+
+hlt
