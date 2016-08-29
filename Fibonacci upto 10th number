@@ -1,0 +1,15 @@
+mvi d,1
+mvi e,1
+mvi a,1
+mvi h,9
+lxi b,0001
+loop: add e
+mov d,e
+mov e,a
+mov a,d
+stax b
+inx b
+dcr h
+jnz loop
+
+hlt
