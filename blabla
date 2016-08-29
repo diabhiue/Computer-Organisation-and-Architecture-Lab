@@ -1,0 +1,13 @@
+lda 0000
+mov b,a
+mvi a,1
+loop1: mov c,b
+mov d,a
+mvi a,0
+	loop2: add d
+	dcr c
+	jnz loop2
+dcr b
+jnz loop1
+
+hlt
