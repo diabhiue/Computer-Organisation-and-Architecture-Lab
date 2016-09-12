@@ -1,0 +1,20 @@
+lxi b,0005
+lxi d,0010
+mvi h,5
+loop: ldax b
+stax d
+inx b
+inx d
+dcr h
+jnz loop
+
+lxi b,0000
+lxi d,0005
+mvi h,5
+loop1: ldax b
+stax d
+inx b
+inx d
+dcr h
+jnz loop1
+hlt
