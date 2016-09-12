@@ -1,0 +1,11 @@
+lxi h,0000
+mov a,m
+mvi d,9
+loop: inx h
+cmp m
+jnc ah
+mov a,m
+ah: dcr d 
+jnz loop
+sta 0011
+hlt
