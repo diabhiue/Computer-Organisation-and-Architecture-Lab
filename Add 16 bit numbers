@@ -1,0 +1,13 @@
+lhld 0002H
+xchg
+lhld 0005h
+mov a,e
+add l
+mov l,a
+mov a,d
+add h
+mov h,a
+shld 0008h
+
+
+hlt
